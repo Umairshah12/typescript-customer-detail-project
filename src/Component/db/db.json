@@ -1,0 +1,11 @@
+{
+  "customers": [
+    {
+      "id": 6,
+      "name": "fsfds",
+      "age": "32",
+      "url": "https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50.jpg",
+      "note": "fdsf"
+    }
+  ]
+}

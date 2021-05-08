@@ -36,3 +36,139 @@
     transform: rotate(360deg);
   }
 }
+.list {
+  width: 50%;
+  border: 2px solid brown;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  margin: 0px auto;
+  border: 0.1rem solid rgba(0, 0, 0, 0.233);
+  padding: 1rem;
+  justify-content: space-between;
+  /* grid-gap: 1rem; */
+  /* justify-content: flex-end; */
+}
+
+.list-header {
+  display: flex;
+  align-items: center;
+}
+
+.list-image {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 100%;
+  margin-right: 0.5rem;
+}
+
+.item-note {
+  width: 30%;
+  text-align: left;
+}
+
+.add-list {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 50px auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.input-class {
+  padding: 0.6rem;
+  margin: 0.2rem;
+  font-size: 1rem;
+}
+
+.input-class:focus {
+  color: #8f5a29;
+}
+
+.input-btn {
+  display: inline-block;
+  padding: 0.7rem;
+  background-color: rgb(7, 88, 180);
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 10px;
+  font-weight: 600;
+  transition: 0.5s ease;
+}
+
+.input-btn:hover {
+  cursor: pointer;
+  background-color: rgb(143, 166, 241);
+}
+
+.del-btn {
+  background-color: red;
+  display: inline-block;
+  padding: 10px;
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5%;
+  transition: 0.5s ease;
+  margin-bottom: 10px;
+}
+
+.del-btn:hover {
+  cursor: pointer;
+  background-color: rgb(245, 158, 158);
+}
+
+.update-btn {
+  margin-bottom: 10px;
+  background-color: rgb(7, 88, 180);
+  display: inline-block;
+  padding: 10px;
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5%;
+  transition: 0.5s ease;
+}
+
+.update-btn:hover {
+  cursor: pointer;
+  background-color: rgb(143, 166, 241);
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto;
+  font-size: 40px;
+}
+
+@media (max-width: 765px) {
+  ul {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .list {
+    width: 90%;
+    flex-direction: column;
+  }
+  .list-header {
+    flex-direction: column;
+  }
+  .item-note {
+    width: 100%;
+    text-align: center;
+  }
+  .add-list {
+    width: 100%;
+  }
+}
